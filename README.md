@@ -1,8 +1,7 @@
 # augmentation_for_yolo
-yolo_mark_type
+only using yolo_mark_type
 
 image and bbox augmentation
-
 very simple code
 
 Please refer to the picture below.
