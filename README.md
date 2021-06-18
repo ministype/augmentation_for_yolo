@@ -1,8 +1,12 @@
 # augmentation_for_yolo
 yolo_mark_type
+
 image and bbox augmentation
+
 very simple code
-Please refer to the picture below. \n
+
+Please refer to the picture below.
+
 enter your directory path in line 7 ""
 
 ![image](https://user-images.githubusercontent.com/85820789/122518239-ea7b3600-d04b-11eb-81fd-5d39a8ebb42d.png)
