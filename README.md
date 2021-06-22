@@ -30,7 +30,7 @@ yolo mark 형식은 많이 사용하는 이미지 크기의 좌표가 아닌 0~1
 
 ![image](https://user-images.githubusercontent.com/85820789/122520845-1a780880-d04f-11eb-9b5f-143bc47ebb43.png)
 
-yolo mark 는 [class] [x_axis] [y_axis] [widht] [height] 의 형태로 저장됨
+yolo mark 는 [class] [x_axis] [y_axis] [width] [height] 의 형태로 저장됨
 
 한개의 사진에 클래스가 여러개일 경우 줄을 바꿔 저장해줌
 
@@ -38,6 +38,6 @@ yolo mark 는 [class] [x_axis] [y_axis] [widht] [height] 의 형태로 저장됨
 
 위와 같이 좌표 표기법을 확인해보았다.
 
-[class] [x_axis] [y_axis] [widht] [height] 5개의 데이터 중 x 좌표가 x축 중심을 기준으로 반전이 되기 때문에 txt파일 을 읽어와 [x-axis] 자리에 [1- x-axis]를 대입 해 간단하게 전환해 주었다.
+[class] [x_axis] [y_axis] [width] [height] 5개의 데이터 중 x 좌표가 x축 중심을 기준으로 반전이 되기 때문에 txt파일 을 읽어와 [x-axis] 자리에 [1- x-axis]를 대입 해 간단하게 전환해 주었다.
 
 회전은 cos sin을 사용할 예정.
